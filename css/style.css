@@ -23,6 +23,11 @@ body{
 	padding: 0;
 	font-family: OpenSans, Arial, sans-serif;
 }
+h1,
+h2,
+h3 {
+text-transform:uppercase;	
+}
 
 
 .header-page{
@@ -73,14 +78,18 @@ svg{
 	width: 41vw;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 38vw;
-	margin-top: 0;
+	
 
+}
+
+.logo-header {
+margin-bottom: 38vw;
+margin-top: 0;	
 }
 
 .header-title{
 	margin: 0;
-	font-size: 28px;
+	font-size: 8.7vw;
 	color:#ffffff;
     letter-spacing: 1px;
     font-family: "Open Sans";
@@ -112,12 +121,13 @@ svg{
 	height: 11vw;
 	border-radius: 38px;
 	border-width: 0;
-	margin-bottom: 3,75vw;
+	margin-bottom: 3.75vw;
 }
 
 .container-button{
 	display: flex;
-	margin-left: 25vw;
+	margin-left: auto;
+	margin-right: auto;
 }
 .icon-button{
 	width: 7.8vw;
@@ -139,5 +149,76 @@ svg{
 .button-text-second{
 	font-weight: 700; 
 }
+
+
+
+
+
+.footer-page{
+	background-image: url("../images/game_767.jpg");
+	width: 100vw;
+
 }
+
+.footer-container{
+	position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 87.5vw;
+  margin-top: 10vw;
+  margin-right: 6.25vw;
+  margin-bottom: 26.25vw;
+  margin-left:6.25vw;
+}
+
+.footer-header{
+	
+}
+
+
+
+.footer-title {
+	width:100%;
+	margin: 0;
+	color:#ffffff;
+    letter-spacing: 1px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin-bottom: 23.4vw;
+    margin-top: 18vw;
+    
+}
+
+.footer-title1 {
+	margin: 0;
+	font-size: 10vw;
+font-family: "Open Sans";
+font-weight: 700;
+}
+
+.footer-title2{
+	margin: 0;
+	font-size: 4.3vw;
+    color: #9b8ec1;
+    font-family: "Open Sans";
+   font-weight: 400;
+
+}
+
+.logo-footer1{
+	width: 18.7vw;
+	padding: 15px 10px;
+	background: #5e42b0; 
+	border-radius: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 31vw;
+}
+
+.logo-footer2 {
+ z-index: 2;
+
+}
+
 
