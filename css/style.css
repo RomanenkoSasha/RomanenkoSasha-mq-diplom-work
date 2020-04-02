@@ -16,7 +16,13 @@
   font-style: normal;
 }
 
+*{
+	margin:0;
+	padding: 0;
+}
+
 body{
+	display: block;
 	min-width: 320px;
 	max-width: 640px;
 	margin: 0;
@@ -157,9 +163,31 @@ margin-top: 0;
 	font-weight: 700; 
 }
 
+.main{
+	width: 100%;
+}
+
+ul{
+	margin:0;
+} 
 
 
 
+.list-card:nth-child(3n+2) {
+	background-color: #f5f4f9;
+}
+
+.athlets .list-card:nth-child(3n+3){
+	background-color: #5e42b0;
+}
+
+.players .list-card:nth-child(3n+3){
+	background-color: #090c35;
+}
+
+.image-motivation-section{
+	max-width:100%;
+}
 
 .footer-page{
 	background-image: url("../images/game_767.jpg");
