@@ -28,6 +28,7 @@ body{
 	padding: 0;
 	font-family: OpenSans, Arial, sans-serif;
 }
+
 h1,
 h2,
 h3 {
@@ -37,6 +38,7 @@ text-transform:uppercase;
 a{
 	text-decoration: none;
 }
+
 .header-page{
 	background-image: url("../images/football_767.jpg");
 	width: 100vw;
@@ -180,15 +182,12 @@ margin-top: 0;
 font-family: "Open Sans";
 font-weight: 700;
 }
+ 
+
 
 .image{
-	margin-right: auto;
-	margin-left: auto;
-}
 
-.title-list-card{
-	display: flex;
-
+	margin: auto;
 }
 
 .title-card a{
@@ -199,9 +198,15 @@ font-weight: 700;
     font-weight: 700;
 }
 
+.number-card{
+	color: #000000;
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 4.37vw;
+}
+
 .number-card:nth-child(3n+3){
-	color: #0a0e34;
-	font-size: 100px;
+color: #8765dd;	
 }
 
 .list-card:nth-child(3n+1){
@@ -220,7 +225,7 @@ font-weight: 700;
 	background-color: #090c35;
 }
 
-img{
+.img-motivation{
 	max-width:100%;
 	height: auto;
 }
@@ -266,11 +271,6 @@ img{
   margin-bottom: 26.25vw;
   margin-left:6.25vw;
 }
-
-.footer-header{
-	
-}
-
 
 
 .footer-title {
