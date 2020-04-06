@@ -167,7 +167,13 @@ margin-top: 0;
 }
 
 .main{
+	position: relative;
+
 	width: 100vw;
+}
+
+.container-section{
+
 }
 
 .card-content{
@@ -176,21 +182,42 @@ margin-top: 0;
 }
 
 .title-section{
+	position: relative;
 	margin-left: 6.25vw;
+	margin-bottom: 76.56vw;
 	font-size: 15.62vw;
 	color: #e7e7e7;
-font-family: "Open Sans";
-font-weight: 700;
+    font-family: "Open Sans";
+    font-weight: 700;
 }
  
+.title-section::after{
+	content: "";
+	position: absolute;
+	width: 60vw;
+	height: 87.81vw;
+	z-index: 1;
+    background-image: url("../images/footballer_192.png");
+    background-position: center center;
+    background-size: cover;
+	background-repeat: no-repeat;
+	
+	top: 25vw;
+	left: calc(50% - 60vw/2);
+	bottom: 9.37vw;
+	
+
+}
 
 
-.image{
-
-	margin: auto;
+.players .title-section::after{
+	width: 100vw;
+	left:0;
+	background-image: url("../images/basketballer_302.png");
 }
 
 .title-card a{
+	position: relative;
 	font-size:7.18vw;
 	margin-left: 10px;
 	color: #c1c1c1;
@@ -199,13 +226,24 @@ font-weight: 700;
 }
 
 .number-card{
+	position: absolute;
 	color: #000000;
 	font-family: "Open Sans";
 	font-weight: 700;
 	font-size: 4.37vw;
 }
 
-.number-card:nth-child(3n+3){
+.number-card::after {
+	content: "";
+	display: block;
+	width: 4.68vw;
+height: 1.25vw;
+border-radius: 0.31vw;
+background-color: #5e42b0;
+	
+  }
+
+.number3{
 color: #8765dd;	
 }
 
