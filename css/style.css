@@ -18,7 +18,7 @@
 
 *{
 	margin:0;
-	padding: 0;
+	padding:0;
 }
 
 body{
@@ -176,6 +176,15 @@ margin-top: 0;
 
 }
 
+.list-card:nth-child(3n+1) .card-content {
+	padding-top:26.25vw;
+	padding-bottom: 17.5vw;
+}
+
+.text-section{
+	margin-top: 8.43vw;
+}
+
 .card-content{
 	margin-left: 6.25vw;
 	margin-right: 6.25vw;
@@ -183,6 +192,7 @@ margin-top: 0;
 
 .title-section{
 	position: relative;
+	margin-top: 3.1vw;
 	margin-left: 6.25vw;
 	margin-bottom: 76.56vw;
 	font-size: 15.62vw;
@@ -204,14 +214,14 @@ margin-top: 0;
 	
 	top: 25vw;
 	left: calc(50% - 60vw/2);
-	bottom: 9.37vw;
+	
 	
 
 }
 
 
 .players .title-section::after{
-	width: 100vw;
+	width: 94.37vw;
 	left:0;
 	background-image: url("../images/basketballer_302.png");
 }
