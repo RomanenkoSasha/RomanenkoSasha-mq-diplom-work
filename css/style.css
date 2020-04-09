@@ -178,22 +178,35 @@ margin-top: 0;
 
 .list-card:nth-child(3n+1) .card-content {
 	padding-top:26.25vw;
-	padding-bottom: 17.5vw;
+}
+
+.list-card:nth-child(3n+3) .text-section{
+	color:#ffffff;
+}
+
+.list-card:nth-child(3n+3) .number-card::after{
+background-color: #ffffff;
+}
+
+.players .list-card:nth-child(3n+3) .number-card{
+	color: #8765dd;
 }
 
 .text-section{
-	margin-top: 8.43vw;
+	margin-top: 7.81vw;
 }
 
 .card-content{
 	margin-left: 6.25vw;
 	margin-right: 6.25vw;
+	padding-top:18.75vw;
+	padding-bottom: 15.62vw;
 }
 
 .title-section{
 	position: relative;
 	margin-top: 3.1vw;
-	margin-left: 6.25vw;
+	padding-left: 6.25vw;
 	margin-bottom: 76.56vw;
 	font-size: 15.62vw;
 	color: #e7e7e7;
@@ -211,25 +224,24 @@ margin-top: 0;
     background-position: center center;
     background-size: cover;
 	background-repeat: no-repeat;
-	
 	top: 25vw;
 	left: calc(50% - 60vw/2);
 	
-	
-
 }
 
 
 .players .title-section::after{
-	width: 94.37vw;
+	width:100vw;
 	left:0;
+	right: 0;
+	background-size: cover;
 	background-image: url("../images/basketballer_302.png");
 }
 
 .title-card a{
 	position: relative;
 	font-size:7.18vw;
-	margin-left: 10px;
+	padding-left:8.12vw;
 	color: #c1c1c1;
     font-family: "Open Sans";
     font-weight: 700;
@@ -253,9 +265,19 @@ background-color: #5e42b0;
 	
   }
 
-.number3{
-color: #8765dd;	
-}
+  .motivation-cards .number-card{
+	  color: #ffffff;
+	  background-color:  #5e42b0;
+	  padding: 8.2vw 8.2vw 6.87vw 8.2vw;
+	  top:-29.68vw;
+  }
+
+  .motivation-cards .number-card.number-card::after{
+	  background-color: #8f7bc8;
+  }
+
+
+
 
 .list-card:nth-child(3n+1){
 	background-color: #fafafa;
@@ -274,13 +296,18 @@ color: #8765dd;
 }
 
 .img-motivation{
-	max-width:100%;
+	max-width:100vw;
 	height: auto;
 }
 
+
+
 .discription-motivation{
+	position: relative;
+	margin-top: 11.25vw;
 	margin-left:6.25vw;
 	margin-right:6.25vw; 
+	margin-bottom: 20.31vw;
 }
 
 .title-motivation{
@@ -300,6 +327,8 @@ color: #8765dd;
 
 .motivation-text{
 	font-size:5vw;
+
+
 }
 
 .footer-page{
