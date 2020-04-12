@@ -73,7 +73,7 @@ a{
   display: flex;
   flex-direction: column;
   width: 87.5vw;
-  margin-top: 10vw;
+  margin-top: 10.62vw;
   margin-right: 6.25vw;
   margin-bottom: 26.25vw;
   margin-left:6.25vw;
@@ -172,12 +172,10 @@ margin-top: 0;
 	width: 100vw;
 }
 
-.container-section{
-
-}
-
+@media(max-width:640px){
 .list-card:nth-child(3n+1) .card-content {
 	padding-top:26.25vw;
+}
 }
 
 .list-card:nth-child(3n+3) .text-section{
@@ -231,10 +229,10 @@ background-color: #ffffff;
 
 
 .players .title-section::after{
-	width:100vw;
+	width:98vw;
 	left:0;
 	right: 0;
-	background-size: cover;
+	background-size: contain;
 	background-image: url("../images/basketballer_302.png");
 }
 
@@ -393,4 +391,107 @@ font-weight: 700;
 
 }
 
+@media(min-width:641px) and (max-width:960px){
 
+	.header-page{
+		background-image: url("../images/football_1280.jpg");
+	}
+
+	.logo{
+		width: 26.69vw;
+	}
+
+	.logo-header {
+		margin-bottom: 23vw;
+	}
+
+	.header-title{
+		margin-left: 7.55vw;
+		font-size: 8.33vw;
+		letter-spacing: 3px;
+		margin-bottom: 40.36vw;
+	}
+
+	.header-title1{
+		margin-bottom: 0;
+	}
+
+	.download {
+		display: flex;
+		flex-wrap: nowrap;
+		margin-left: 2.99vw;
+		margin-right: 2.99vw;
+}
+
+.download-app{
+	margin-right: 3.77vw;
+}
+
+.title-section{
+	padding-left: 39vw;
+	font-size: 10.41vw;
+	margin-bottom: 0;
+}
+
+.card-content{
+	margin-left: 39vw;
+	padding-top: 5.2vw;
+	padding-bottom: 4.2vw;
+}
+
+.title-card a{
+	font-size: 4.16vw;
+	padding-left: 3.9vw;
+}
+
+.number-card{
+	font-size: 2.34vw;
+}
+.number-card::after{
+	width: 2.47vw;
+	height: 0.65vw;
+}
+.text-section{
+	font-size: 2.08vw;
+	line-height: 3.6vw;
+	padding-right: 2.6vw;
+	margin-top: 3.25vw;
+}
+
+.title-section::after{
+	content: "";
+	position: absolute;
+	width: 45vw;
+	height: 105vw;
+	z-index: 1;
+    background-image: url("../images/footballer_497.png");
+	background-position: -20vw;
+	background-size:145%;
+	top:2.2vw;
+	left:0;
+}
+	
+.players .card-content{
+	margin-left: 6.25vw;
+	margin-right: 45vw;
+}
+
+.players .title-section{
+	margin-left: 0;
+	padding-left:6.25vw;
+}
+
+	.players .title-section::after{
+		width: 58vw;
+		height:76vw ;
+		left:41.7vw;
+		right: 0;
+		top: -1vw;
+		background-size: cover;
+		background-position: center;
+		background-image: url("../images/basketballer_436.png");
+}
+
+
+
+}
