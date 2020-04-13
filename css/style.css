@@ -402,6 +402,15 @@ font-weight: 700;
 		background-image: url("../images/football_1280.jpg");
 	}
 
+	.header-container{
+		margin-top: 4.6vw;
+		margin-bottom: 10.32vw;
+	}
+
+	.header-container .download-button{
+		margin-bottom: 0;
+	}
+
 	.logo{
 		width: 26.69vw;
 	}
@@ -412,9 +421,8 @@ font-weight: 700;
 
 	.header-title{
 		margin-left: 7.55vw;
-		font-size: 8.33vw;
-		letter-spacing: 3px;
-		margin-bottom: 40.36vw;
+		font-size: 8.3vw;
+		margin-bottom: 30.36vw;
 	}
 
 	.header-title1{
@@ -520,8 +528,7 @@ font-weight: 700;
 	padding-right: 0;
 	letter-spacing: 1px;
 }
-
-.footer-container{
+ .footer-container{
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -543,17 +550,17 @@ font-weight: 700;
 	text-align: center;
 }
 
-.footer-page .download-button{
+.download-button{
 	height: 9.8vw;
 	margin-bottom: 8vw;
 }
 
-.footer-page .icon-button{
+ .icon-button{
 	width: 5.4vw;
 	height: 5.4vw;
 }
 
-.footer-page .button-text{
+.button-text{
 	font-size: 1.82vw;
 }
 
