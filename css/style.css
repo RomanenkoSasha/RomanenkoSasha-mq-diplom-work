@@ -176,6 +176,10 @@ margin-top: 0;
 .list-card:nth-child(3n+1) .card-content {
 	padding-top:26.25vw;
 }
+.footer-page{
+	background-position: -44vw;
+}
+
 }
 
 .list-card:nth-child(3n+3) .text-section{
@@ -379,15 +383,16 @@ font-weight: 700;
 .logo-footer1{
 	width: 18.7vw;
 	padding: 15px 10px;
-	background: #5e42b0; 
+	background: linear-gradient(to top, #51379b, #7656d6); 
 	border-radius: 30px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 31vw;
+	margin-top: 23vw;
 }
 
 .logo-footer2 {
  z-index: 2;
+ margin-bottom: 3.1vw;
 
 }
 
@@ -492,6 +497,64 @@ font-weight: 700;
 		background-image: url("../images/basketballer_436.png");
 }
 
+.title-motivation{
+	font-size:10.41vw;
+}
 
+.motivation-cards .number-card{
+	font-size: 3.12vw;
+	padding: 5.92vw;
+	top:-20.68vw;
+}
+.motivation-cards .number-card.number-card::after{
+	width: 3.3vw;
+}
+
+.discription-motivation{
+	margin-top: 9vw;
+	margin-bottom: 12.23vw;
+}
+
+.motivation-cards .text-section{
+	font-size: 3.12vw;
+	padding-right: 0;
+	letter-spacing: 1px;
+}
+
+.footer-container{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ 
+.logo-footer1{
+	margin-top: 16.9vw;
+	width: 13.2vw;
+}
+
+.footer-title{
+	margin-top: 6vw;
+	margin-bottom: 37vw;
+}
+
+.footer-title1{
+	font-size: 10.3vw;
+}
+.footer-title2{
+	text-align: center;
+}
+
+.footer-page .download-button{
+	height: 9.8vw;
+	margin-bottom: 8vw;
+}
+
+.footer-page .icon-button{
+	width: 5.4vw;
+	height: 5.4vw;
+}
+
+.footer-page .button-text{
+	font-size: 1.82vw;
+}
 
 }
